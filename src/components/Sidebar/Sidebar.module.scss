@@ -1,0 +1,35 @@
+/* src/components/Sidebar/Navbar.module.scss */
+
+@mixin box-shadow($color) {
+  box-shadow: 3px 3px 4px -2px $color !important;
+}
+
+/* algumas otimizações necessarias para dispositivos com telas de largura com no minimo 340 */
+@media (min-width: 700px) {
+  .main {
+    background-color: black;
+  }
+}
+
+.main {
+  .hello {
+    color: white;
+  }
+  background-color: burlywood;
+  display: flex;
+
+  /* .hello {
+    $primary-color-hello: tomato;
+    @include box-shadow($primary-color-hello);
+    border: 2px solid $primary-color-hello;
+    width: 100%;
+    color: red;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+  } */
+}
+
+.hello {
+  color: red;
+}

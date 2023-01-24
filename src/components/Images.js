@@ -1,0 +1,1 @@
+import perfil from '../assets/imgs/foto-about-removebg-preview.png'
